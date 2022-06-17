@@ -25,3 +25,5 @@ jobs:
       run: npm install grunt
     - name: console log
       run: echo "hello there"
+    - name: Please work for me
+      run: npm run build
