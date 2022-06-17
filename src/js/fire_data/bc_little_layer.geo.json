@@ -1,0 +1,137 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G80265",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.377333,
+          57.397167
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G80265",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-03Z",
+        "FIRE_STATUS": "Under Control",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 4,
+        "ZONE": 8,
+        "FIRE_ID": 265,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "North Side of Sikanni River",
+        "LATITUDE": 57.3972,
+        "LONGITUDE": -122.3773,
+        "CURRENT_SIZE": 545,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30262724,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.N60114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.75295,
+          49.6401
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "N60114",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-04-24Z",
+        "FIRE_STATUS": "Under Control",
+        "FIRE_CAUSE": "Person",
+        "FIRE_CENTRE": 6,
+        "ZONE": 6,
+        "FIRE_ID": 114,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Rendell Creek",
+        "LATITUDE": 49.6401,
+        "LONGITUDE": -118.753,
+        "CURRENT_SIZE": 55,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30262731,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90274",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.022083,
+          59.981717
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G90274",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-05Z",
+        "FIRE_STATUS": "Being Held",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 4,
+        "ZONE": 9,
+        "FIRE_ID": 274,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Vinatya Creek",
+        "LATITUDE": 59.9817,
+        "LONGITUDE": -120.0221,
+        "CURRENT_SIZE": 488.11,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30263129,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G30304",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.158833,
+          52.773367
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G30304",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-14Z",
+        "FIRE_STATUS": "Being Held",
+        "FIRE_CAUSE": "Person",
+        "FIRE_CENTRE": 4,
+        "ZONE": 3,
+        "FIRE_ID": 304,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Kinbasket Lake 4 KM",
+        "LATITUDE": 52.7734,
+        "LONGITUDE": -119.1588,
+        "CURRENT_SIZE": 2,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30263133,
+        "SE_ANNO_CAD_DATA": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+@import "values";
+@import "flexbox";
+
+//defensive coding
+* {
+  //border-box, you're the best
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+
+  //Safari, you're the worst
+  -webkit-tap-highlight-color: transparent;
+}
+
+//elements
+body {
+  color: @df-off-black;
+  font-family: @df-serif;
+  font-size: @df-text-base;
+  line-height: @df-line-base;
+  padding: 0;
+  margin: 0;
+  //remove 300ms click delay in Safari, AKA still the worst
+  touch-action: manipulation;
+
+  @media @darkMode {
+    background-color: @df-off-white;
+  }
+}
+
+main {
+  display: block;
+}
+.interactive {
+  padding: 10px;
+  margin: 20px auto;
+  border-top: 1px solid @df-light-gray;
+  border-bottom: 1px solid @df-light-gray;
+  font-family: @df-sans;
+}
+
+a {
+  color: @df-blue;
+  text-decoration: none;
+
+  &:visited {
+    color: @df-middle-gray;
+  }
+
+  &:hover, &:focus {
+    color: @df-navy;
+  }
+
+  img {
+    border: none;
+  }
+}
+
+img, video, embed, object, iframe {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: @df-off-black;
+  margin: @df-line-base 0 (@df-line-base/2) 0;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 30 / 28;
+  letter-spacing: -0.5px;
+
+  @media @tablet {
+    font-size: 42px;
+    line-height: 46 / 42;
+    letter-spacing: -1px;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: @df-line-base;
+}
+h3 {
+  font-size: 22px;
+  line-height: 23 / 22;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24 / 16;
+  margin: @df-line-base/2 0 0 0;
+}
+
+
+//common style elements
+.byline {
+  font-size: 19px;
+  margin-bottom: 0;
+}
+.staff-position {
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 0;
+}
+.publish-date {
+  font-size: 16px;
+  font-family: @df-sans;
+  color: @df-middle-gray;
+}
+.graphic-hed {
+  font-family: @df-sans;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+.graphic-chatter {
+  font-family: @df-sans;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+.source-container {
+  margin-top: 10px;
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+.data-source, .art-credit, .caption {
+  color: @df-middle-gray;
+  font-family: @df-sans;
+  font-size: 14px;
+}
+.data-source {
+  font-style: italic;
+  @media @tablet-up {
+    float: left;
+  }
+}
+.art-credit {
+  @media @tablet-up {
+    float: right;
+  }
+}
+
+//header and menu
+.main-nav {
+  background: white;
+  border-bottom: 1px solid @df-light-gray;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, .1);
+  position: relative;
+  line-height: 1;
+  z-index: 999;
+  font-size: 0px;
+
+  .wrapper {
+    max-width: 1020px;
+    margin: auto;
+    position: relative;
+    padding: 10px;
+  }
+
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+    img {
+      height: 24px;
+      max-height: 100%;
+    }
+  }
+}
+
+.share-bar {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  vertical-align: middle;
+}
+.share-icon {
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 30px;
+  &:hover .changes-color {
+    fill: @df-off-black;
+  }
+}
+
+zeus-ad {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+.marketing {
+  font-family: @df-sans;
+  margin: 20px 5px;
+  padding: 10px;
+  text-align: center;
+  width: ~"calc(100% - 10px)";
+}
+.marketing--footer {
+  border: 1px solid @df-light-gray;
+  max-width: 630px;
+  @media (min-width: 640px) {
+    margin: 20px auto;
+    span {
+      white-space: pre;
+    }
+  }
+}
+.marketing--sidebar {
+  border-top: 1px solid @df-light-gray;
+  border-bottom: 1px solid @df-light-gray;
+  max-width: 350px;
+  @media (max-width: 500px) {
+    margin: auto;
+  }
+}
+.marketing__text {
+  margin: 5px auto;
+}
+.marketing__body {
+  font-size: 18px;
+  line-height: 21px;
+}
+.marketing__button {
+  background: @df-blue;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 3px;
+  padding: 5px 20px;
+  &:hover {
+    color: #fff;
+    background: @df-navy;
+  }
+  &:visited {
+    color: #fff;
+  }
+}
+
+.show-comments {
+  border: 1px solid @df-blue;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: @df-sans;
+  font-weight: bold;
+  font-size: 15px;
+  color: @df-blue;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.thin-div {
+  border-bottom: 1px solid @df-light-gray;
+  margin-bottom: 15px;
+  font-family: @df-sans;
+  margin: auto;
+  max-width: 900px;
+
+  .center {
+    position: relative;
+    top: 15px;
+    margin: auto;
+    width: 105px;
+    text-align: center;
+    font-size: 20px;
+    background: white;
+  }
+}
+
+.dont-miss {
+  .display-flex;
+  .flex-wrap(wrap);
+  margin: auto;
+  margin-top: 15px;
+  max-width: 900px;
+  font-size: 17px;
+  font-family: @df-sans;
+
+  .story {
+    .flex(0 0 25%);
+
+    @media @mobile {
+      .flex(1 1 50%)
+    }
+  }
+  .padded {
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+  }
+  a {
+    color: @df-dark-gray;
+    transition: color .1s linear;
+
+    &:hover {
+      color: @df-blue;
+    }
+  }
+  .small {
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
+
+.project-credits {
+  padding-top: 10px;
+  max-width: 900px;
+  margin: 10px auto;
+  @media @desktop-up {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+  }
+}
+.project-credit {
+  flex-basis: 50%;
+  font-family: @df-sans;
+  font-size: 17px;
+  line-height: 1.2;
+  margin: 3px 0;
+  padding: 0 10px;
+}
+
+footer.nav-bottom {
+  background: black;
+  opacity: 0.95;
+  padding: 8px 8px 4px 8px;
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    float: left;
+    margin-right: 10px;
+
+    img {
+      margin-top: 5px;
+      height: 20px;
+    }
+  }
+
+  &::after {
+    clear: both;
+    content: " ";
+    display: block;
+  }
+}

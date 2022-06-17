@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <% if (!json.project.embedded) { %>
+      <%= t.include("partials/_dataLayer.html") %>
+      <script src="https://seattle-times.zeustechnology.com/main.js" async></script>
+      <script src="https://www.seattletimes.com/wp-content/plugins/st-advertising/dist/st-projects-bundle.js" async></script>
+    <% } %>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtm.html") %>
+    <% } %>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtmNoScript.html") %>
+    <% } %>
+    <responsive-child class="interactive">
+          <!-- content goes here -->
+          <%= console.log(grunt.data) %>
+
+          <h3 class="graphic-hed">Active wildfires in Washington, Oregon and British Columbia</h3>
+          <div id="timestamp">Last updated: <%= grunt.data.fires.updated %></div>
+
+          <div class="graphic-chatter">Click to explore wildfires reported by the National Interagency Fire Center and the B.C. Wildfire Service.</div>
+
+
+          <div class="buttonContainer">
+            <button id='smallFires'><span>&#10003;</span><span class="hide"></span> Wildfire locations</button>
+            <!-- <button id='largeFires'><span>Remove</span><span class="hide">See</span> large fires</button> -->
+
+            <div class="dropdown">
+              <div id="myDropdown" class="dropdown-content">
+                <input type="text" placeholder="Search by fire name" aria-label="Search for fire" value="" id="myInput">
+                <button id="closeSearch"><i class="fas fa-times-circle"></i></button>
+                <div id="dropdown" class="hide" aria-label="list of current fires" aria-expanded="false">
+                  <%
+                  var data = grunt.data.fireNames.names;
+
+                  function startsWithNumber(str) {
+                    return /^\d/.test(str);
+                  }
+
+                  data.forEach(function(item) {
+                    var itemNoSpaces = item.replace(/\s/g, '');
+                    itemNoSpaces = startsWithNumber(itemNoSpaces) ? "I" + itemNoSpaces : itemNoSpaces;
+                  %>
+                    <div id="<%= itemNoSpaces %>" class="dropdown-item display"><%= item %></div>
+                  <% }); %>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="map-container">
+           <div class="aspect-ratio-outer">
+             <div class="aspect-ratio-inner">
+
+               <leaflet-map zoom=10.5>
+                 <tile-layer layer="esriTopographic"></tile-layer>
+               </leaflet-map>
+               <!-- <div id="map" class="map"></div> -->
+             </div>
+
+           </div>
+          </div>
+
+          <%= t.include("partials/_fire_conversion_table.html") %>
+
+
+          <p class="data-source note">Note: Fire details may differ between reporting agencies</p>
+
+          <figcaption class="source-container">
+              <p class="data-source">Sources:
+                <a href="https://data-nifc.opendata.arcgis.com/datasets/nifc::wfigs-current-wildland-fire-perimeters/explore?location=44.090783%2C-120.110246%2C7.67" target="_blank" rel="nofollow noreferrer noopener">National Interagency Fire Center</a> and
+                <a href="https://www2.gov.bc.ca/gov/content/safety/wildfire-status/wildfire-situation" target="_blank" rel="nofollow noreferrer noopener">British Columbia Wildfire Service</a>
+              </p>
+              <p class="art-credit">Lauren Flannery / The Seattle Times</p>
+            </figcaption>
+        </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

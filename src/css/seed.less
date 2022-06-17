@@ -1,0 +1,246 @@
+@import "seattletimes";
+@aspect-ratio: 65/100;
+@aspect-ratio-mobile: 100/100;
+
+.leaflet-interactive {
+  &.selected {
+    fill: yellow;
+    stroke-width: 3px;
+    stroke-opacity: 0.9;
+  }
+}
+
+.dropdown {
+  width: ~"calc(50% - 10px)";
+  font-size: 0px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-left: 10px;
+
+
+  @media @mobile {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  #myDropdown {
+    max-width: 100%;
+    margin-top: 1em;
+    cursor: pointer;
+
+    #closeSearch {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 24px;
+      margin-left: 6px;
+      line-height: 1em;
+      color: @df-blue;
+      opacity: 0.6;
+      padding: 0px;
+      margin: 0px;
+      width: 30px;
+      // background-color: none;
+      border: none;
+      background: none;
+
+      // .fas.fa-times-circle { font-weight: 500; }
+
+      &.inUse { opacity: 1; }
+    }
+
+    #closeSearch:hover {
+      opacity: 1;
+    }
+
+    #myInput {
+      width: ~"calc(100% - 30px)";
+      display: inline-block;
+      font-size: 16px;
+      padding: 4px 7px;
+      vertical-align: middle;
+    }
+    #dropdown {
+      max-height: 300px;
+      overflow-y: scroll;
+      position: absolute;
+      z-index: 100;
+      width: ~"calc(100% - 30px)";
+
+      .dropdown-item {
+        cursor: pointer;
+        font-size: 16px;
+        background-color: @df-light-gray;
+        border-bottom: 1px solid white;
+        padding: 3px 10px;
+        display: block;
+        &.selected {
+          background-color: #aaa;
+        }
+        &.hide {
+          display: none;
+        }
+      }
+
+      &.hide {
+        display: none;
+      }
+    }
+  }
+}
+
+.interactive {
+  max-width: 700px;
+  margin: auto;
+}
+
+.data-source.note {
+  font-style: normal;
+}
+
+.graphic-hed {
+  margin-bottom: 5px;
+}
+
+.graphic-chatter {
+  margin-bottom: 1em;
+}
+
+.source-container p {
+  margin: 0px;
+}
+
+.buttonContainer {
+  font-size: 0px;
+  width: 100%;
+
+  button {
+    // width: ~"calc(50% - 2px)";
+    vertical-align: top;
+    display: inline-block;
+    height: 29px;
+    width: ~"calc(50% - 10px)";
+    margin: auto;
+    margin-right: 10px;
+    // max-width: 300px;
+    padding: 3px 7px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    span {
+      &.hide { display: none; }
+    }
+    @media @mobile {
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom: 15px;
+    }
+  }
+  button:hover {
+    background-color: @df-middle-gray;
+    // color: white;
+  }
+  // button:first-child {
+  //   margin-right: 2px;
+  //   @media @mobile {
+  //     margin-right: 0px;
+  //   }
+  // }
+  // button:nth-child(2) {
+  //   margin-left: 2px;
+  //   @media @mobile {
+  //     margin-left: 0px;
+  //   }
+  // }
+}
+
+#timestamp {
+  text-align: center;
+  color: #666;
+  font-family: @df-sans;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.table {
+  table {
+    width: 100%;
+    margin: 1em auto;
+    border-collapse: collapse;
+    // border: 1px solid @df-border-gray;
+    font-size: 16px;
+
+    tr {
+      border-top: 1px solid #c0c0c0;
+    }
+
+    tr:first-child {
+      background-color: @df-dark-gray;
+      color: white;
+      border-top: none;
+    }
+
+
+
+    th {
+      padding: 1px 5px;
+      font-size: 15px;
+    }
+
+    td {
+      // border: 1px solid @df-border-gray;
+      padding: 1px 5px;
+    }
+
+  }
+
+
+  th:first-child {
+    text-align: right;
+    // width: 100%;
+  }
+  th:nth-child(2) {
+    text-align: center;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+  }
+  th:nth-child(3) {
+    text-align: left;
+  }
+  td:first-child {
+    text-align: right;
+  }
+  td:nth-child(2) {
+    text-align: center;
+  }
+  td:nth-child(3) {
+    text-align: left;
+  }
+}
+
+.aspect-ratio-outer {
+  width: 100%;
+  position: relative;
+  .aspect-ratio-inner {
+    padding-bottom: percentage(@aspect-ratio);
+    position: relative;
+    z-index: 5;
+    @media @mobile {
+      padding-bottom: percentage(@aspect-ratio-mobile);
+    }
+
+  }
+  leaflet-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    &:not([ready]) {
+      display: none;
+    }
+  }
+}
