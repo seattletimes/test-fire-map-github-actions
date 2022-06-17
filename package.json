@@ -1,6 +1,9 @@
 {
   "name": "fire-map-2022",
   "description": "",
+  "scripts": {
+    "build": "grunt static publish"
+  },
   "version": "0.0.1",
   "author": "lflannery",
   "repository": {

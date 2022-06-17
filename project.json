@@ -2,7 +2,7 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": ""
+      "path": "github-actions-test-fire-page"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
