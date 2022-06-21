@@ -22,7 +22,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
-      run: npm install bucketConfig async grunt aws-sdk path chalk gzip mime fs
+      run: npm install bucketConfig-sdk async grunt aws-sdk path chalk gzip mime fs
     - name: console log
       run: echo "hello there"
     - name: Please work for me
