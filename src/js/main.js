@@ -244,7 +244,7 @@ small_data.features.forEach(function(f) {
 
 var unique = fireBehaivor.filter(onlyUnique);
 
-console.log(unique);
+// console.log(unique);
 
 
 var onEachSmallFeature = function(feature, layer) {

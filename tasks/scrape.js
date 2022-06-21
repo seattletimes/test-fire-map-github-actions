@@ -43,6 +43,7 @@ module.exports = function(grunt) {
     minutes = "0" + minutes;
   }
   var time;
+  console.log(hours);
   if ( (hours < 12) && (hours > 0) ) {
     time = hours + ":" + minutes + " a.m.";
   } else if ( hours === 12 ) {
