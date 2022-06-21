@@ -83,7 +83,7 @@ module.exports = function(grunt) {
     var s3 = new aws.S3();
     var uploads = findBuiltFiles();
 
-    console.log("Here I am again out on my own");
+    console.log(s3);
     async.eachLimit(uploads, 10, function(upload, c) {
 
       async.waterfall([function(next) {

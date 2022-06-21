@@ -30,7 +30,7 @@
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30263203,
+        "OBJECTID": 30277556,
         "SE_ANNO_CAD_DATA": null
       }
     },
@@ -63,7 +63,172 @@
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30263210,
+        "OBJECTID": 30277563,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90319",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.900217,
+          59.29455
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G90319",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-20Z",
+        "FIRE_STATUS": "New",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 4,
+        "ZONE": 9,
+        "FIRE_ID": 319,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Kwokulie Lake",
+        "LATITUDE": 59.2946,
+        "LONGITUDE": -120.9002,
+        "CURRENT_SIZE": 4.8,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30277574,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90318",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.138667,
+          59.109833
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G90318",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-20Z",
+        "FIRE_STATUS": "New",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 4,
+        "ZONE": 9,
+        "FIRE_ID": 318,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Kotcho Lake",
+        "LATITUDE": 59.1098,
+        "LONGITUDE": -121.1387,
+        "CURRENT_SIZE": 0.5,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30277575,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.886167,
+          59.558767
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G90320",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-20Z",
+        "FIRE_STATUS": "New",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 4,
+        "ZONE": 9,
+        "FIRE_ID": 320,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "4 miles east of Yeka Lake",
+        "LATITUDE": 59.5588,
+        "LONGITUDE": -120.8862,
+        "CURRENT_SIZE": 0.1,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30277601,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90317",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.926783,
+          59.268633
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G90317",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-20Z",
+        "FIRE_STATUS": "New",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 4,
+        "ZONE": 9,
+        "FIRE_ID": 317,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Kwokuli Lake",
+        "LATITUDE": 59.2686,
+        "LONGITUDE": -120.9268,
+        "CURRENT_SIZE": 1,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30277614,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90313",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.588167,
+          58.575783
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G90313",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-18Z",
+        "FIRE_STATUS": "Out of Control",
+        "FIRE_CAUSE": "Unknown",
+        "FIRE_CENTRE": 4,
+        "ZONE": 9,
+        "FIRE_ID": 313,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Dall Lake",
+        "LATITUDE": 58.5758,
+        "LONGITUDE": -127.5882,
+        "CURRENT_SIZE": 700,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30277635,
         "SE_ANNO_CAD_DATA": null
       }
     },
@@ -96,7 +261,7 @@
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30263288,
+        "OBJECTID": 30277647,
         "SE_ANNO_CAD_DATA": null
       }
     },
@@ -115,7 +280,7 @@
         "FIRE_NUMBER": "G30304",
         "FIRE_YEAR": 2022,
         "IGNITION_DATE": "2022-06-14Z",
-        "FIRE_STATUS": "Being Held",
+        "FIRE_STATUS": "Under Control",
         "FIRE_CAUSE": "Person",
         "FIRE_CENTRE": 4,
         "ZONE": 3,
@@ -124,12 +289,12 @@
         "GEOGRAPHIC_DESCRIPTION": "Kinbasket Lake 4 KM",
         "LATITUDE": 52.7734,
         "LONGITUDE": -119.1588,
-        "CURRENT_SIZE": 2,
+        "CURRENT_SIZE": 2.16,
         "FIRE_OF_NOTE_ID": null,
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30263292,
+        "OBJECTID": 30277651,
         "SE_ANNO_CAD_DATA": null
       }
     }
