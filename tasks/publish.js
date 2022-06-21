@@ -78,8 +78,12 @@ module.exports = function(grunt) {
     }
     aws.config.update(creds);
 
+    console.log("here I am");
+
     var s3 = new aws.S3();
     var uploads = findBuiltFiles();
+
+    console.log("Here I am again out on my own");
     async.eachLimit(uploads, 10, function(upload, c) {
 
       async.waterfall([function(next) {
@@ -117,7 +121,7 @@ module.exports = function(grunt) {
         console.log.apply(console, args);
         if (deploy != "simulated") s3.putObject(obj, next);
       }], c);
-      
+
     }, function(err) {
       if (err) return console.log(err);
       console.log("All files uploaded successfully");
