@@ -30,172 +30,7 @@
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30278638,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.N60114",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.75295,
-          49.6401
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "N60114",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-04-24Z",
-        "FIRE_STATUS": "Under Control",
-        "FIRE_CAUSE": "Person",
-        "FIRE_CENTRE": 6,
-        "ZONE": 6,
-        "FIRE_ID": 114,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "Rendell Creek",
-        "LATITUDE": 49.6401,
-        "LONGITUDE": -118.753,
-        "CURRENT_SIZE": 55,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30278645,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90319",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.900217,
-          59.29455
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "G90319",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-20Z",
-        "FIRE_STATUS": "New",
-        "FIRE_CAUSE": "Lightning",
-        "FIRE_CENTRE": 4,
-        "ZONE": 9,
-        "FIRE_ID": 319,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "Kwokulie Lake",
-        "LATITUDE": 59.2946,
-        "LONGITUDE": -120.9002,
-        "CURRENT_SIZE": 4.8,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30278656,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90318",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.138667,
-          59.109833
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "G90318",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-20Z",
-        "FIRE_STATUS": "New",
-        "FIRE_CAUSE": "Lightning",
-        "FIRE_CENTRE": 4,
-        "ZONE": 9,
-        "FIRE_ID": 318,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "Kotcho Lake",
-        "LATITUDE": 59.1098,
-        "LONGITUDE": -121.1387,
-        "CURRENT_SIZE": 0.5,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30278657,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90320",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.886167,
-          59.558767
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "G90320",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-20Z",
-        "FIRE_STATUS": "New",
-        "FIRE_CAUSE": "Lightning",
-        "FIRE_CENTRE": 4,
-        "ZONE": 9,
-        "FIRE_ID": 320,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "4 miles east of Yeka Lake",
-        "LATITUDE": 59.5588,
-        "LONGITUDE": -120.8862,
-        "CURRENT_SIZE": 0.1,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30278683,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90317",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.926783,
-          59.268633
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "G90317",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-20Z",
-        "FIRE_STATUS": "Out of Control",
-        "FIRE_CAUSE": "Lightning",
-        "FIRE_CENTRE": 4,
-        "ZONE": 9,
-        "FIRE_ID": 317,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "Kwokuli Lake",
-        "LATITUDE": 59.2686,
-        "LONGITUDE": -120.9268,
-        "CURRENT_SIZE": 1,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30278696,
+        "OBJECTID": 30286190,
         "SE_ANNO_CAD_DATA": null
       }
     },
@@ -228,7 +63,7 @@
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30278717,
+        "OBJECTID": 30286269,
         "SE_ANNO_CAD_DATA": null
       }
     },
@@ -261,7 +96,7 @@
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30278729,
+        "OBJECTID": 30286281,
         "SE_ANNO_CAD_DATA": null
       }
     },
@@ -294,7 +129,139 @@
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30278733,
+        "OBJECTID": 30286285,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.K60324",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.75325,
+          50.1068
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "K60324",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-22Z",
+        "FIRE_STATUS": "New",
+        "FIRE_CAUSE": "Person",
+        "FIRE_CENTRE": 5,
+        "ZONE": 6,
+        "FIRE_ID": 324,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Hamilton Creek",
+        "LATITUDE": 50.1068,
+        "LONGITUDE": -120.7533,
+        "CURRENT_SIZE": 3.6,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30286323,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.N40326",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.236533,
+          51.166333
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "N40326",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-22Z",
+        "FIRE_STATUS": "New",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 6,
+        "ZONE": 4,
+        "FIRE_ID": 326,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "3Km NW of Martha Creek",
+        "LATITUDE": 51.1663,
+        "LONGITUDE": -118.2365,
+        "CURRENT_SIZE": 0.009,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30286337,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G60323",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2449,
+          55.101067
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G60323",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-22Z",
+        "FIRE_STATUS": "Out of Control",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 4,
+        "ZONE": 6,
+        "FIRE_ID": 323,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Mackenzie",
+        "LATITUDE": 55.1011,
+        "LONGITUDE": -123.2449,
+        "CURRENT_SIZE": 0.1,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30286348,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.K20325",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.64125,
+          50.812367
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "K20325",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-22Z",
+        "FIRE_STATUS": "New",
+        "FIRE_CAUSE": "Unknown",
+        "FIRE_CENTRE": 5,
+        "ZONE": 2,
+        "FIRE_ID": 325,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Turquoise Lake",
+        "LATITUDE": 50.8124,
+        "LONGITUDE": -121.6413,
+        "CURRENT_SIZE": 0.52,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30286349,
         "SE_ANNO_CAD_DATA": null
       }
     }

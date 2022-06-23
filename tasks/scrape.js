@@ -37,13 +37,14 @@ module.exports = function(grunt) {
   var now = new Date();
   var month = monthNames[now.getMonth()];
   var day = now.getDate();
-  var hours = now.getHours();
+  var hours = now.getUTCHours();
+  hours = (hours >= 12) ? hours - 7 : hours + 24 - 7;
   var minutes = now.getMinutes() + "";
   if (minutes.length == 1) {
     minutes = "0" + minutes;
   }
   var time;
-  console.log(hours);
+
   if ( (hours < 12) && (hours > 0) ) {
     time = hours + ":" + minutes + " a.m.";
   } else if ( hours === 12 ) {
@@ -53,6 +54,7 @@ module.exports = function(grunt) {
   } else {
     time = hours - 12 + ":" + minutes + " p.m.";
   }
+
   return month + " " + day + ", 2022," + " at " + time;
 };
 
@@ -77,8 +79,6 @@ module.exports = function(grunt) {
           grunt.data.fires = {
             updated: getDateline()
           }
-
-          console.log(results.features);
 
 
 

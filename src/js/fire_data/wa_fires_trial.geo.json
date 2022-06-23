@@ -1,4 +1,616 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": 17267,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -124.471405342947,
+              42.7597384123363
+            ],
+            [
+              -124.471710948908,
+              42.7598231769182
+            ],
+            [
+              -124.471873938335,
+              42.7599827340456
+            ],
+            [
+              -124.472030136498,
+              42.7600812109122
+            ],
+            [
+              -124.472573434887,
+              42.7601011549154
+            ],
+            [
+              -124.473354426602,
+              42.7601235926534
+            ],
+            [
+              -124.473265037045,
+              42.7604061194859
+            ],
+            [
+              -124.473078570148,
+              42.7603919676835
+            ],
+            [
+              -124.473128935093,
+              42.7604648108149
+            ],
+            [
+              -124.472947391862,
+              42.7605933540495
+            ],
+            [
+              -124.472956475626,
+              42.7606748421886
+            ],
+            [
+              -124.473075656013,
+              42.7607099428716
+            ],
+            [
+              -124.473064431564,
+              42.760816956962
+            ],
+            [
+              -124.473166739793,
+              42.7608615291836
+            ],
+            [
+              -124.473222390425,
+              42.7609703567372
+            ],
+            [
+              -124.473245087259,
+              42.7611264457152
+            ],
+            [
+              -124.473273374309,
+              42.7612477498578
+            ],
+            [
+              -124.473266233601,
+              42.7612897667389
+            ],
+            [
+              -124.473213038963,
+              42.7613886286733
+            ],
+            [
+              -124.473204073776,
+              42.7614935838554
+            ],
+            [
+              -124.473197408277,
+              42.7617463439017
+            ],
+            [
+              -124.473212596093,
+              42.7620858218746
+            ],
+            [
+              -124.473170659143,
+              42.7625336927875
+            ],
+            [
+              -124.473172639928,
+              42.7626266500446
+            ],
+            [
+              -124.473176535921,
+              42.7628095330015
+            ],
+            [
+              -124.47313496728,
+              42.7631669392881
+            ],
+            [
+              -124.473132982003,
+              42.7635396137865
+            ],
+            [
+              -124.473125532274,
+              42.7637769917317
+            ],
+            [
+              -124.473068730901,
+              42.7639318120061
+            ],
+            [
+              -124.47294076499,
+              42.7640061150748
+            ],
+            [
+              -124.472801924973,
+              42.7640375450514
+            ],
+            [
+              -124.472682581093,
+              42.7641413792082
+            ],
+            [
+              -124.472243413615,
+              42.7643461827894
+            ],
+            [
+              -124.471952133087,
+              42.7643312939059
+            ],
+            [
+              -124.471697342127,
+              42.7642056971671
+            ],
+            [
+              -124.471549711196,
+              42.7641125708084
+            ],
+            [
+              -124.471487731933,
+              42.7638439217119
+            ],
+            [
+              -124.471387168232,
+              42.763814977975
+            ],
+            [
+              -124.471219320716,
+              42.7635397892159
+            ],
+            [
+              -124.471117862293,
+              42.7634351580221
+            ],
+            [
+              -124.470886275714,
+              42.7631745672148
+            ],
+            [
+              -124.470933169569,
+              42.763046911106
+            ],
+            [
+              -124.470977012745,
+              42.762749046049
+            ],
+            [
+              -124.4709862079,
+              42.7626414028175
+            ],
+            [
+              -124.470958207413,
+              42.7623878701662
+            ],
+            [
+              -124.470812738727,
+              42.76236766375
+            ],
+            [
+              -124.470604633212,
+              42.7622759057756
+            ],
+            [
+              -124.470297259366,
+              42.7621656737513
+            ],
+            [
+              -124.470231929387,
+              42.7620854769433
+            ],
+            [
+              -124.470380436175,
+              42.7618977918155
+            ],
+            [
+              -124.470312590014,
+              42.7616892089553
+            ],
+            [
+              -124.470056566565,
+              42.7613261980102
+            ],
+            [
+              -124.469835411224,
+              42.7610905083181
+            ],
+            [
+              -124.469583723044,
+              42.7610676079365
+            ],
+            [
+              -124.469423713329,
+              42.7610412298152
+            ],
+            [
+              -124.469366259778,
+              42.7608905481684
+            ],
+            [
+              -124.469399960975,
+              42.7607089252027
+            ],
+            [
+              -124.469391347928,
+              42.7606381460587
+            ],
+            [
+              -124.469374868334,
+              42.7605027192844
+            ],
+            [
+              -124.469408995331,
+              42.760284383673
+            ],
+            [
+              -124.469485770746,
+              42.7602107647052
+            ],
+            [
+              -124.469606823222,
+              42.7602245089505
+            ],
+            [
+              -124.469668412616,
+              42.7602156242285
+            ],
+            [
+              -124.469710807707,
+              42.7602474821936
+            ],
+            [
+              -124.469832010202,
+              42.7602071332533
+            ],
+            [
+              -124.469872190946,
+              42.7601877162604
+            ],
+            [
+              -124.469917566648,
+              42.7601679061727
+            ],
+            [
+              -124.469956935315,
+              42.7601750147473
+            ],
+            [
+              -124.470002585902,
+              42.7601778659596
+            ],
+            [
+              -124.470052318432,
+              42.7601687371993
+            ],
+            [
+              -124.470082996798,
+              42.7601652277608
+            ],
+            [
+              -124.470112348351,
+              42.7601618700173
+            ],
+            [
+              -124.4701442619,
+              42.7601598762129
+            ],
+            [
+              -124.470177061188,
+              42.7601622208953
+            ],
+            [
+              -124.47023672639,
+              42.7601666530373
+            ],
+            [
+              -124.470288067804,
+              42.7601741481054
+            ],
+            [
+              -124.470341162729,
+              42.7601763147101
+            ],
+            [
+              -124.470381473729,
+              42.7601970699227
+            ],
+            [
+              -124.470423724192,
+              42.7602039542488
+            ],
+            [
+              -124.470469019943,
+              42.7602027037524
+            ],
+            [
+              -124.470509616607,
+              42.7601970771776
+            ],
+            [
+              -124.470540812402,
+              42.7601993809669
+            ],
+            [
+              -124.470541202271,
+              42.7601994093273
+            ],
+            [
+              -124.470541814024,
+              42.7601994548359
+            ],
+            [
+              -124.470546125039,
+              42.7601997859272
+            ],
+            [
+              -124.470670192261,
+              42.7598849686747
+            ],
+            [
+              -124.471405342947,
+              42.7597384123363
+            ]
+          ],
+          [
+            [
+              -124.470546319075,
+              42.7601997872464
+            ],
+            [
+              -124.473078570148,
+              42.7603919676835
+            ],
+            [
+              -124.473034780871,
+              42.7603286337611
+            ],
+            [
+              -124.472821034834,
+              42.7603323008212
+            ],
+            [
+              -124.472310495309,
+              42.7602595749328
+            ],
+            [
+              -124.472202295928,
+              42.7602512521474
+            ],
+            [
+              -124.471988926285,
+              42.7602646831004
+            ],
+            [
+              -124.471898336578,
+              42.7602665700554
+            ],
+            [
+              -124.471782571586,
+              42.7602190162653
+            ],
+            [
+              -124.471664611111,
+              42.7601911208301
+            ],
+            [
+              -124.471529102047,
+              42.760209849917
+            ],
+            [
+              -124.471428108053,
+              42.7602172777063
+            ],
+            [
+              -124.471363349402,
+              42.7602198862043
+            ],
+            [
+              -124.471316303733,
+              42.7602124788612
+            ],
+            [
+              -124.471265901059,
+              42.7601957679816
+            ],
+            [
+              -124.471227374113,
+              42.7601968298484
+            ],
+            [
+              -124.471196319353,
+              42.7602201097899
+            ],
+            [
+              -124.471154625846,
+              42.7602217289712
+            ],
+            [
+              -124.471111322558,
+              42.7602315878392
+            ],
+            [
+              -124.471083697566,
+              42.7602300082307
+            ],
+            [
+              -124.471061086072,
+              42.7602287142049
+            ],
+            [
+              -124.471050102371,
+              42.7602244957597
+            ],
+            [
+              -124.471019342259,
+              42.76021268332
+            ],
+            [
+              -124.471017884294,
+              42.7602121227072
+            ],
+            [
+              -124.470971144949,
+              42.7602041606862
+            ],
+            [
+              -124.470933021347,
+              42.7601937952836
+            ],
+            [
+              -124.470877526124,
+              42.7602017230096
+            ],
+            [
+              -124.470843334447,
+              42.7602029556984
+            ],
+            [
+              -124.470786208782,
+              42.7601971437916
+            ],
+            [
+              -124.470757447421,
+              42.7601965680092
+            ],
+            [
+              -124.470705710749,
+              42.7601858781093
+            ],
+            [
+              -124.470651454303,
+              42.7601942371785
+            ],
+            [
+              -124.470613536414,
+              42.7602042952333
+            ],
+            [
+              -124.470556743126,
+              42.7602005569348
+            ],
+            [
+              -124.470546319075,
+              42.7601997872464
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17267,
+        "poly_IncidentName": "Hensley Hill Rd",
+        "poly_FeatureCategory": "Wildfire Daily Fire Perimeter",
+        "poly_MapMethod": "Phone/Tablet",
+        "poly_GISAcres": 1,
+        "poly_CreateDate": 1655785247278,
+        "poly_DateCurrent": 1655936817684,
+        "poly_PolygonDateTime": 1655781720000,
+        "poly_Acres_AutoCalc": 25.3546332935907,
+        "poly_GlobalID": "{AA173243-0362-4E0D-A3DE-9929552733ED}",
+        "poly_Source": "2022 NIFS",
+        "irwin_ABCDMisc": null,
+        "irwin_ADSPermissionState": "DEFAULT",
+        "irwin_CalculatedAcres": null,
+        "irwin_ContainmentDateTime": null,
+        "irwin_ControlDateTime": null,
+        "irwin_DailyAcres": null,
+        "irwin_DiscoveryAcres": null,
+        "irwin_DispatchCenterID": "OR72C",
+        "irwin_EstimatedCostToDate": null,
+        "irwin_FFReportApprovedByTitle": null,
+        "irwin_FFReportApprovedByUnit": null,
+        "irwin_FFReportApprovedDate": null,
+        "irwin_FireBehaviorGeneral": null,
+        "irwin_FireBehaviorGeneral1": null,
+        "irwin_FireBehaviorGeneral2": null,
+        "irwin_FireBehaviorGeneral3": null,
+        "irwin_FireCause": null,
+        "irwin_FireCauseGeneral": null,
+        "irwin_FireCauseSpecific": null,
+        "irwin_FireCode": null,
+        "irwin_FireDepartmentID": null,
+        "irwin_FireDiscoveryDateTime": 1655763720000,
+        "irwin_FireMgmtComplexity": null,
+        "irwin_FireOutDateTime": null,
+        "irwin_FSConfinePercent": null,
+        "irwin_FSFullSuppPercent": null,
+        "irwin_FSMonitorPercent": null,
+        "irwin_FSPointZonePercent": null,
+        "irwin_FSJobCode": null,
+        "irwin_FSOverrideCode": null,
+        "irwin_GACC": "NWCC",
+        "irwin_ICS209ReportDateTime": null,
+        "irwin_ICS209RForTimePeriodFrom": null,
+        "irwin_ICS209RForTimePeriodTo": null,
+        "irwin_ICS209ReportStatus": null,
+        "irwin_IncidentManagementOrg": null,
+        "irwin_IncidentName": "Hensley Hill Rd",
+        "irwin_IncidentShortDescription": null,
+        "irwin_IncidentTypeCategory": "WF",
+        "irwin_IncidentTypeKind": "FI",
+        "irwin_InitialLatitude": null,
+        "irwin_InitialLongitude": null,
+        "irwin_InitialResponseAcres": null,
+        "irwin_InitialResponseDateTime": null,
+        "irwin_IrwinID": "{D18CD5B3-C7AB-494E-A07F-1431975B5F2A}",
+        "irwin_IsFireCauseInvestigated": null,
+        "irwin_IsFireCodeRequested": 0,
+        "irwin_IsFSAssisted": null,
+        "irwin_IsMultiJurisdictional": null,
+        "irwin_IsReimbursable": null,
+        "irwin_IsTrespass": null,
+        "irwin_IsUnifiedCommand": null,
+        "irwin_LocalIncidentIdentifier": "0194-22",
+        "irwin_PercentContained": null,
+        "irwin_PercentPerToBeContained": null,
+        "irwin_POOCity": null,
+        "irwin_POOCounty": "Curry",
+        "irwin_POODispatchCenterID": "ORRICC",
+        "irwin_POOFips": "41015",
+        "irwin_POOJurisdictionalAgency": null,
+        "irwin_POOJurisdictionalUnit": null,
+        "irwin_POOJurisdUnitParentUnit": null,
+        "irwin_POOLandownerCategory": "Private",
+        "irwin_POOLandownerKind": "Private",
+        "irwin_POOLegalDescPrinMeridian": null,
+        "irwin_POOLegalDescQtr": null,
+        "irwin_POOLegalDescQtrQtr": null,
+        "irwin_POOLegalDescRange": null,
+        "irwin_POOLegalDescSection": null,
+        "irwin_POOLegalDescTownship": null,
+        "irwin_POOPredServiceAreaID": "NW04",
+        "irwin_POOProtectingAgency": "DOF",
+        "irwin_POOProtectingUnit": "OR723S",
+        "irwin_POOState": "US-OR",
+        "irwin_PredominantFuelGroup": null,
+        "irwin_PredominantFuelModel": null,
+        "irwin_PrimaryFuelModel": null,
+        "irwin_SecondaryFuelModel": null,
+        "irwin_TotalIncidentPersonnel": null,
+        "irwin_UniqueFireIdentifier": "2022-OR723S-0194-22",
+        "irwin_WFDSSDecisionStatus": "No Decision",
+        "irwin_CreatedBySystem": "IROC",
+        "irwin_ModifiedBySystem": "IROC",
+        "irwin_IsDispatchComplete": 0,
+        "irwin_OrganizationalAssessment": null,
+        "irwin_StratDecisionPublishDate": null,
+        "irwin_GlobalID": null,
+        "irwin_Source": "IRWIN",
+        "irwin_ArchivedOn": null,
+        "irwin_ModifiedOnDateTime_dt": 1655785236413,
+        "irwin_CreatedOnDateTime_dt": 1655785236413,
+        "Shape__Area": 0.0000112840057227004,
+        "Shape__Length": 0.020730757542068,
+        "GlobalID": "9d3b2f19-5997-4480-8bf5-a50375948b48",
+        "irwin_IsCpxChild": 0,
+        "irwin_CpxName": null,
+        "irwin_CpxID": null
+      }
+    }
+  ]
 }
