@@ -60,7 +60,7 @@ jobs:
                   },
                   {
                   "title": "Today's fires:",
-                  "value": "${{ steps.fireNames.outputs.content }}"
+                  "value": "Why hello there"
                   }
                 ]
               }
