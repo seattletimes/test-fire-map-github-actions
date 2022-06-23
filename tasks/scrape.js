@@ -37,7 +37,9 @@ module.exports = function(grunt) {
   var now = new Date();
   var month = monthNames[now.getMonth()];
   var day = now.getDate();
+  
   var hours = now.getUTCHours();
+
   hours = (hours >= 12) ? hours - 7 : hours + 24 - 7;
   var minutes = now.getMinutes() + "";
   if (minutes.length == 1) {
