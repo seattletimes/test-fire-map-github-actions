@@ -46,7 +46,7 @@ jobs:
       env:
           INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       with:
-          text: A successful scrape!
+          text: A successful scrape ${{ steps.fireNames.outputs.content }}!
           attachments: |
               [
               {
