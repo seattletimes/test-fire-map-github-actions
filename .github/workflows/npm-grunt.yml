@@ -2,7 +2,7 @@ name: NodeJS with Grunt
 
 on:
   schedule:
-    - cron: "0 8 * * *" #minute, hour, day, month, year. CronGuru tool, asterisk means "every"
+    - cron: "0 8,12 * * 1-5" #minute, hour, day, month, year. CronGuru tool, asterisk means "every"
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install grunt & packages
-      run: npm install async grunt aws-sdk util path chalk zlib
+      run: npm install grunt
     - name: Scrape
       run: npm run scrape
     - name: Scrape again, compile and handoff to server
