@@ -3,210 +3,12 @@
   "features": [
     {
       "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G80265",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.377333,
-          57.397167
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "G80265",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-03Z",
-        "FIRE_STATUS": "Under Control",
-        "FIRE_CAUSE": "Lightning",
-        "FIRE_CENTRE": 4,
-        "ZONE": 8,
-        "FIRE_ID": 265,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "North Side of Sikanni River",
-        "LATITUDE": 57.3972,
-        "LONGITUDE": -122.3773,
-        "CURRENT_SIZE": 545,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30286190,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90313",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -127.588167,
-          58.575783
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "G90313",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-18Z",
-        "FIRE_STATUS": "Out of Control",
-        "FIRE_CAUSE": "Unknown",
-        "FIRE_CENTRE": 4,
-        "ZONE": 9,
-        "FIRE_ID": 313,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "Dall Lake",
-        "LATITUDE": 58.5758,
-        "LONGITUDE": -127.5882,
-        "CURRENT_SIZE": 700,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30286269,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90274",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.022083,
-          59.981717
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "G90274",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-05Z",
-        "FIRE_STATUS": "Being Held",
-        "FIRE_CAUSE": "Lightning",
-        "FIRE_CENTRE": 4,
-        "ZONE": 9,
-        "FIRE_ID": 274,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "Vinatya Creek",
-        "LATITUDE": 59.9817,
-        "LONGITUDE": -120.0221,
-        "CURRENT_SIZE": 488.11,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30286281,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G30304",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.158833,
-          52.773367
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "G30304",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-14Z",
-        "FIRE_STATUS": "Under Control",
-        "FIRE_CAUSE": "Person",
-        "FIRE_CENTRE": 4,
-        "ZONE": 3,
-        "FIRE_ID": 304,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "Kinbasket Lake 4 KM",
-        "LATITUDE": 52.7734,
-        "LONGITUDE": -119.1588,
-        "CURRENT_SIZE": 2.16,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30286285,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.K60324",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.75325,
-          50.1068
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "K60324",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-22Z",
-        "FIRE_STATUS": "New",
-        "FIRE_CAUSE": "Person",
-        "FIRE_CENTRE": 5,
-        "ZONE": 6,
-        "FIRE_ID": 324,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "Hamilton Creek",
-        "LATITUDE": 50.1068,
-        "LONGITUDE": -120.7533,
-        "CURRENT_SIZE": 3.6,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30286323,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.N40326",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.236533,
-          51.166333
-        ]
-      },
-      "geometry_name": "SHAPE",
-      "properties": {
-        "FIRE_NUMBER": "N40326",
-        "FIRE_YEAR": 2022,
-        "IGNITION_DATE": "2022-06-22Z",
-        "FIRE_STATUS": "New",
-        "FIRE_CAUSE": "Lightning",
-        "FIRE_CENTRE": 6,
-        "ZONE": 4,
-        "FIRE_ID": 326,
-        "FIRE_TYPE": "Fire",
-        "GEOGRAPHIC_DESCRIPTION": "3Km NW of Martha Creek",
-        "LATITUDE": 51.1663,
-        "LONGITUDE": -118.2365,
-        "CURRENT_SIZE": 0.009,
-        "FIRE_OF_NOTE_ID": null,
-        "FIRE_OF_NOTE_NAME": null,
-        "FIRE_OF_NOTE_URL": null,
-        "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30286337,
-        "SE_ANNO_CAD_DATA": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G60323",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.2449,
-          55.101067
+          -123.228817,
+          55.111133
         ]
       },
       "geometry_name": "SHAPE",
@@ -221,14 +23,14 @@
         "FIRE_ID": 323,
         "FIRE_TYPE": "Fire",
         "GEOGRAPHIC_DESCRIPTION": "Mackenzie",
-        "LATITUDE": 55.1011,
-        "LONGITUDE": -123.2449,
+        "LATITUDE": 55.1111,
+        "LONGITUDE": -123.2288,
         "CURRENT_SIZE": 0.1,
         "FIRE_OF_NOTE_ID": null,
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30286348,
+        "OBJECTID": 30287339,
         "SE_ANNO_CAD_DATA": null
       }
     },
@@ -261,7 +63,205 @@
         "FIRE_OF_NOTE_NAME": null,
         "FIRE_OF_NOTE_URL": null,
         "FEATURE_CODE": "JA70003000",
-        "OBJECTID": 30286349,
+        "OBJECTID": 30287340,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G80265",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.377333,
+          57.397167
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G80265",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-03Z",
+        "FIRE_STATUS": "Under Control",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 4,
+        "ZONE": 8,
+        "FIRE_ID": 265,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "North Side of Sikanni River",
+        "LATITUDE": 57.3972,
+        "LONGITUDE": -122.3773,
+        "CURRENT_SIZE": 545,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30287181,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.N10329",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.4367,
+          49.461117
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "N10329",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-23Z",
+        "FIRE_STATUS": "New",
+        "FIRE_CAUSE": "Unknown",
+        "FIRE_CENTRE": 6,
+        "ZONE": 1,
+        "FIRE_ID": 329,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Fort Steele Wardner Road",
+        "LATITUDE": 49.4611,
+        "LONGITUDE": -115.4367,
+        "CURRENT_SIZE": 0.009,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30287222,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90313",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.588167,
+          58.575783
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G90313",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-18Z",
+        "FIRE_STATUS": "Out of Control",
+        "FIRE_CAUSE": "Unknown",
+        "FIRE_CENTRE": 4,
+        "ZONE": 9,
+        "FIRE_ID": 313,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Dall Lake",
+        "LATITUDE": 58.5758,
+        "LONGITUDE": -127.5882,
+        "CURRENT_SIZE": 700,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30287261,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G90274",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.022083,
+          59.981717
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G90274",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-05Z",
+        "FIRE_STATUS": "Being Held",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 4,
+        "ZONE": 9,
+        "FIRE_ID": 274,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Vinatya Creek",
+        "LATITUDE": 59.9817,
+        "LONGITUDE": -120.0221,
+        "CURRENT_SIZE": 488.11,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30287273,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.G30304",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.158833,
+          52.773367
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "G30304",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-14Z",
+        "FIRE_STATUS": "Under Control",
+        "FIRE_CAUSE": "Person",
+        "FIRE_CENTRE": 4,
+        "ZONE": 3,
+        "FIRE_ID": 304,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "Kinbasket Lake 4 KM",
+        "LATITUDE": 52.7734,
+        "LONGITUDE": -119.1588,
+        "CURRENT_SIZE": 2.16,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30287277,
+        "SE_ANNO_CAD_DATA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_PNTS_SP.N40326",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.236533,
+          51.166333
+        ]
+      },
+      "geometry_name": "SHAPE",
+      "properties": {
+        "FIRE_NUMBER": "N40326",
+        "FIRE_YEAR": 2022,
+        "IGNITION_DATE": "2022-06-22Z",
+        "FIRE_STATUS": "New",
+        "FIRE_CAUSE": "Lightning",
+        "FIRE_CENTRE": 6,
+        "ZONE": 4,
+        "FIRE_ID": 326,
+        "FIRE_TYPE": "Fire",
+        "GEOGRAPHIC_DESCRIPTION": "3Km NW of Martha Creek",
+        "LATITUDE": 51.1663,
+        "LONGITUDE": -118.2365,
+        "CURRENT_SIZE": 0.009,
+        "FIRE_OF_NOTE_ID": null,
+        "FIRE_OF_NOTE_NAME": null,
+        "FIRE_OF_NOTE_URL": null,
+        "FEATURE_CODE": "JA70003000",
+        "OBJECTID": 30287328,
         "SE_ANNO_CAD_DATA": null
       }
     }
