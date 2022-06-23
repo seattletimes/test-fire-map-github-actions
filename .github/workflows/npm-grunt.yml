@@ -30,13 +30,17 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-      run: npm run build
+      run: | 
+           npm run build
+           echo '::set-output name=FIRES::${fireNames}'
+      id: get-me-fire-names
     - name: Slack Notification on SUCCESS
       if: (success())
       uses: tokorom/action-slack-incoming-webhook@main
       env:
           INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       with:
+          print_fires: ${{ env.FIRES }}
           text: A successful scrape!
           attachments: |
               [
@@ -51,7 +55,7 @@ jobs:
                   },
                   {
                   "title": "Today's fires:",
-                  "value": "${{ fireNames }}"
+                  "value": "${{ steps.get-me-fire-names.outputs.FIRES }}"
                   }
                 ]
               }
