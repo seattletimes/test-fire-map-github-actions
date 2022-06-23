@@ -37,7 +37,7 @@ jobs:
       id: package
       uses: juliangruber/read-file-action@v1
       with:
-        path: ./package.json
+        path: ./src/js/fire_data/fireNames.txt
     - name: Echo package.json
       run: echo "${{ steps.package.outputs.content }}"
     - name: Slack Notification on SUCCESS
