@@ -48,6 +48,10 @@ jobs:
                   {
                   "title": "GitHub Actions URL",
                   "value": "https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}"
+                  },
+                  {
+                  "title": "Today's fires:",
+                  "value": "${{ fireNames }}"
                   }
                 ]
               }
