@@ -33,7 +33,6 @@ jobs:
       run: | 
            npm run build
            echo ${{ github.grunt.data }}
-           echo `::set-output name=FIRES::${{ grunt.data }}`
       id: get-me-fire-names
     - name: Slack Notification on SUCCESS
       if: (success())
