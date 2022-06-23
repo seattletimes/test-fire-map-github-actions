@@ -32,7 +32,7 @@ jobs:
         AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
       run: | 
            npm run build
-           echo '::set-output name=FIRES::${fireNames}'
+           echo `::set-output name=FIRES::${grunt.data}`
       id: get-me-fire-names
     - name: Slack Notification on SUCCESS
       if: (success())
