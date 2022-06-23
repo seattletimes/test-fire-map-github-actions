@@ -32,10 +32,14 @@ jobs:
         AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
       run: | 
            npm run build
-           echo "::set-output name=FIRES::${{ jobs.build.env.grunt.data }}"
-           echo "Hello Lauren"
-           echo "${{  jobs.build.env.grunt.data }}"
       id: get-me-fire-names
+    - name: Read package.json
+      id: package
+      uses: juliangruber/read-file-action@v1
+      with:
+        path: ./package.json
+    - name: Echo package.json
+      run: echo "${{ steps.package.outputs.content }}"
     - name: Slack Notification on SUCCESS
       if: (success())
       uses: tokorom/action-slack-incoming-webhook@main
